@@ -27,7 +27,7 @@ namespace MaxSubArraySum
                 subArraySize++;
             } while (subArraySize <= arr.Length);
 
-            Console.WriteLine(sumResult);
+            Console.WriteLine("Sum:" + sumResult);
             Console.ReadKey();
         }
 
